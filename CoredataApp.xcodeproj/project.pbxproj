@@ -14,6 +14,16 @@
 		D97CA49C272643D800FAB3D3 /* CoredataApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D97CA49A272643D800FAB3D3 /* CoredataApp.xcdatamodeld */; };
 		D97CA49E272643DA00FAB3D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97CA49D272643DA00FAB3D3 /* Assets.xcassets */; };
 		D97CA4A1272643DA00FAB3D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97CA49F272643DA00FAB3D3 /* LaunchScreen.storyboard */; };
+		D97CA4AE2726483B00FAB3D3 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CA4AD2726483B00FAB3D3 /* PlaceViewController.swift */; };
+		D97CA4B027264B9800FAB3D3 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CA4AF27264B9800FAB3D3 /* InfoViewController.swift */; };
+		D97CA4B227264BDD00FAB3D3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CA4B127264BDD00FAB3D3 /* MapViewController.swift */; };
+		D97CA4B427264BEA00FAB3D3 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CA4B327264BEA00FAB3D3 /* NotesViewController.swift */; };
+		D97CA4B727264CE400FAB3D3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CA4B627264CE400FAB3D3 /* Constants.swift */; };
+		D97CA4BC27264F8D00FAB3D3 /* Place+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CA4B827264F8D00FAB3D3 /* Place+CoreDataClass.swift */; };
+		D97CA4BD27264F8D00FAB3D3 /* Place+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CA4B927264F8D00FAB3D3 /* Place+CoreDataProperties.swift */; };
+		D97CA4BE27264F8D00FAB3D3 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CA4BA27264F8D00FAB3D3 /* Note+CoreDataClass.swift */; };
+		D97CA4BF27264F8D00FAB3D3 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CA4BB27264F8D00FAB3D3 /* Note+CoreDataProperties.swift */; };
+		D97CA4C1272650B900FAB3D3 /* PreloadedData.json in Resources */ = {isa = PBXBuildFile; fileRef = D97CA4C0272650B900FAB3D3 /* PreloadedData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,16 @@
 		D97CA49D272643DA00FAB3D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D97CA4A0272643DA00FAB3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D97CA4A2272643DA00FAB3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97CA4AD2726483B00FAB3D3 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		D97CA4AF27264B9800FAB3D3 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		D97CA4B127264BDD00FAB3D3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D97CA4B327264BEA00FAB3D3 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		D97CA4B627264CE400FAB3D3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D97CA4B827264F8D00FAB3D3 /* Place+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D97CA4B927264F8D00FAB3D3 /* Place+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D97CA4BA27264F8D00FAB3D3 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D97CA4BB27264F8D00FAB3D3 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D97CA4C0272650B900FAB3D3 /* PreloadedData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PreloadedData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +80,72 @@
 			children = (
 				D97CA491272643D800FAB3D3 /* AppDelegate.swift */,
 				D97CA493272643D800FAB3D3 /* SceneDelegate.swift */,
-				D97CA495272643D800FAB3D3 /* ViewController.swift */,
-				D97CA497272643D800FAB3D3 /* Main.storyboard */,
+				D97CA4AB2726468800FAB3D3 /* Storyboards */,
+				D97CA4AA2726465200FAB3D3 /* Models */,
+				D97CA4A92726464800FAB3D3 /* Views */,
+				D97CA4A82726462400FAB3D3 /* ViewControllers */,
+				D97CA4AC272646BE00FAB3D3 /* Data */,
 				D97CA49D272643DA00FAB3D3 /* Assets.xcassets */,
-				D97CA49F272643DA00FAB3D3 /* LaunchScreen.storyboard */,
 				D97CA4A2272643DA00FAB3D3 /* Info.plist */,
-				D97CA49A272643D800FAB3D3 /* CoredataApp.xcdatamodeld */,
 			);
 			path = CoredataApp;
+			sourceTree = "<group>";
+		};
+		D97CA4A82726462400FAB3D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D97CA495272643D800FAB3D3 /* ViewController.swift */,
+				D97CA4AD2726483B00FAB3D3 /* PlaceViewController.swift */,
+				D97CA4AF27264B9800FAB3D3 /* InfoViewController.swift */,
+				D97CA4B127264BDD00FAB3D3 /* MapViewController.swift */,
+				D97CA4B327264BEA00FAB3D3 /* NotesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D97CA4A92726464800FAB3D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D97CA4AA2726465200FAB3D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D97CA4B827264F8D00FAB3D3 /* Place+CoreDataClass.swift */,
+				D97CA4B927264F8D00FAB3D3 /* Place+CoreDataProperties.swift */,
+				D97CA4BA27264F8D00FAB3D3 /* Note+CoreDataClass.swift */,
+				D97CA4BB27264F8D00FAB3D3 /* Note+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D97CA4AB2726468800FAB3D3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D97CA497272643D800FAB3D3 /* Main.storyboard */,
+				D97CA49F272643DA00FAB3D3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D97CA4AC272646BE00FAB3D3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D97CA4C0272650B900FAB3D3 /* PreloadedData.json */,
+				D97CA49A272643D800FAB3D3 /* CoredataApp.xcdatamodeld */,
+				D97CA4B527264CC900FAB3D3 /* Helpers */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D97CA4B527264CC900FAB3D3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D97CA4B627264CE400FAB3D3 /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97CA4C1272650B900FAB3D3 /* PreloadedData.json in Resources */,
 				D97CA4A1272643DA00FAB3D3 /* LaunchScreen.storyboard in Resources */,
 				D97CA49E272643DA00FAB3D3 /* Assets.xcassets in Resources */,
 				D97CA499272643D800FAB3D3 /* Main.storyboard in Resources */,
@@ -144,7 +223,16 @@
 				D97CA49C272643D800FAB3D3 /* CoredataApp.xcdatamodeld in Sources */,
 				D97CA496272643D800FAB3D3 /* ViewController.swift in Sources */,
 				D97CA492272643D800FAB3D3 /* AppDelegate.swift in Sources */,
+				D97CA4BF27264F8D00FAB3D3 /* Note+CoreDataProperties.swift in Sources */,
+				D97CA4AE2726483B00FAB3D3 /* PlaceViewController.swift in Sources */,
+				D97CA4B427264BEA00FAB3D3 /* NotesViewController.swift in Sources */,
+				D97CA4BD27264F8D00FAB3D3 /* Place+CoreDataProperties.swift in Sources */,
+				D97CA4BC27264F8D00FAB3D3 /* Place+CoreDataClass.swift in Sources */,
+				D97CA4B027264B9800FAB3D3 /* InfoViewController.swift in Sources */,
 				D97CA494272643D800FAB3D3 /* SceneDelegate.swift in Sources */,
+				D97CA4BE27264F8D00FAB3D3 /* Note+CoreDataClass.swift in Sources */,
+				D97CA4B227264BDD00FAB3D3 /* MapViewController.swift in Sources */,
+				D97CA4B727264CE400FAB3D3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
