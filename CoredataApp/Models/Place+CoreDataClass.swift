@@ -2,7 +2,7 @@
 //  Place+CoreDataClass.swift
 //  CoredataApp
 //
-//  Created by Michael Duberry on 10/24/21.
+//  Created by Michael Duberry on 10/26/21.
 //
 //
 
