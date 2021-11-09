@@ -26,5 +26,6 @@ class InfoViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         summaryLabel.text = place?.summary
     }
-    
+    // test
 }
+
