@@ -1,0 +1,47 @@
+[
+{
+  "name":"Foxtail Coffee",
+  "imagename":"foxtail",
+  "address":"2401 Curry Ford Rd, Orlando, FL 32806",
+  "summary":"Foxtail Coffee Co. was founded by Alex Tchekmeian and Iain Yeakle, two lifelong friends who met years ago in South Florida while in the same kindergarten class. Their close friendship over the years led to a great opportunity in 2016 to combine their varied business and coffee experience and create Foxtail Coffee Co., a neighborhood café.",
+  "lat":28.52458250514341,
+  "long":-81.35121030067003
+},
+
+{
+  "name":"Deeply Coffee",
+  "imagename":"deeply",
+  "address":"111 N Magnolia Ave #50, Orlando, FL 32801",
+  "summary":"Orlando has some great coffee spots, but one of its best is Deeply Coffee. The shop is located on a lovely corner with great street views and a nearby lake. The inside is minimalist, modern, but still super cozy with all the chill vibes. The coffee is high quality and expertly crafted.",
+  "lat":28.54395161578954,
+  "long":-81.37700160916533
+},
+
+{
+  "name":"Achilles Art Cafe",
+  "imagename":"achilles",
+  "address":"2869 Wilshire Dr #103, Orlando, FL 32835",
+  "summary":"Achilles Art Cafe first opened its doors on August 8th, 2008.  Achilles, was born & raised in Hamburg, Germany, & moved to Florida in 1999 with $30 to his name.  He always wanted to have his own cafe, & decided to open this establishment since it was only a short distance from his home in MetroWest.  To this day, he still insists on riding his bike to & from the cafe.",
+  "lat":28.51279297712981,
+  "long":-81.46317815036723
+},
+
+{
+  "name":"Lineage",
+  "imagename":"lineage",
+  "address":"1011 E Colonial Dr, Orlando, FL 32803",
+  "summary":"Lineage Coffee Roasting is a craft coffee roaster from Orlando, FL set on sharing there love of coffee with the community. They are passionate about uncovering the nuances and complexities of each coffee they source, roast, and serve, and telling the stories behind them.",
+  "lat":28.554831191798996,
+  "long":-81.36547086689717
+},
+
+{
+  "name":"Austins Coffee",
+  "imagename":"austins",
+  "address":"929 W Fairbanks Ave, Winter Park, FL 32789",
+  "summary":"Austin’s Coffee imports raw, organic fair trade coffee beans from around the world. They have there own micro-roaster and are always roasting fresh coffee. Austin’s makes a variety of specialty coffee drinks and organic teas. They also have a delightful menu consisting of sandwiches, appetizers, salads, and pastries, many of which are vegetarian or vegan. There’s also plenty of chocolates and treats for your sweet tooth! Fresh bagged coffee beans, organic tea, beer, and wine are also available.",
+  "lat":28.595182633980944,
+  "long":-81.3612818737442
+}
+
+]
